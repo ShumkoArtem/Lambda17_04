@@ -18,8 +18,6 @@ public class Student{
         this.marks = marks;
     }
 
-
-
     public String getFio() {
         return fio;
     }
@@ -32,7 +30,6 @@ public class Student{
     public String toString() {
         return "Студент: " + getFio() + " - " + getMarks() + " Average: " + getAvg() ;
     }
-
 
     public double getAvg(){
         double sum = 0;
